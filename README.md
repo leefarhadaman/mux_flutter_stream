@@ -4,8 +4,6 @@ A sample Flutter project for demonstrating how to integrate video streaming serv
 
 > To get step-by-step information on how to build this app, check out the article "[**Integrating video streaming with Flutter using Mux**](https://medium.com/flutter-community/integrating-video-streaming-with-flutter-using-mux-5ba707cca847)"
 
-![](https://github.com/sbis04/flutter_stream/raw/master/screenshots/fluter_mux_cover.png)
-
 # Usage
 
 If you want to try this sample app, follow the steps mentioned below (the app uses a backend API server for sending the requests to MUX):
@@ -13,8 +11,9 @@ If you want to try this sample app, follow the steps mentioned below (the app us
 * Clone this GitHub repository
   
   ```bash
-  https://github.com/sbis04/flutter_stream.git
-  ```
+```
+   https://github.com/leefarhadaman/mux_flutter_stream.git)
+   ```
 
 * Create a `.env` file in the directory `flutter_stream/mux-api-server` with the following content:
   
@@ -62,22 +61,4 @@ Used the plugin [http_mock_adapter](https://pub.dev/packages/http_mock_adapter) 
 
 # License
 
-Copyright (c) 2021 Souvik Biswas
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright (c) 2021 Farhad Ali
